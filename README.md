@@ -38,21 +38,7 @@ To achieve this, the project integrates:
 - Fine-tuning
 - Retrieval-Augmented Generation
 - Prompt engineering
-
----
-
-# 🧱 Project Architecture
-
-AI-Hotel-Assistant/
-│
-├── notebooks/
-├── data/
-├── models/
-├── src/
-├── README.md
-├── requirements.txt
-└── .gitignore
-
+  
 ---
 
 
