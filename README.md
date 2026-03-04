@@ -42,7 +42,7 @@ To achieve this, the project integrates:
 ---
 
 
-# 📊 1. Thematic Analysis of Customer Reviews
+# 1. Thematic Analysis of Customer Reviews
 
 Customer reviews were analyzed to identify the **main themes influencing customer satisfaction**.
 
@@ -75,7 +75,7 @@ This analysis helps hotels:
 
 ---
 
-# 🤖 2. Fine-Tuning a Large Language Model
+# 2. Fine-Tuning a Large Language Model
 
 A **Meta-Llama-3.1-8B-Instruct model** was fine-tuned using **LoRA (Low-Rank Adaptation)**.
 
@@ -109,7 +109,7 @@ Fine-tuning allows the assistant to:
 
 ---
 
-# 🔎 3. Retrieval-Augmented Generation (RAG)
+# 3. Retrieval-Augmented Generation (RAG)
 
 To improve factual accuracy, a **RAG pipeline** was implemented.
 
@@ -138,7 +138,7 @@ Final Answer
 
 ---
 
-# 🧠 4. Prompt Engineering
+# 4. Prompt Engineering
 
 Different prompt strategies were tested to evaluate their impact on model performance.
 
@@ -160,7 +160,7 @@ Different prompt strategies were tested to evaluate their impact on model perfor
 
 ---
 
-# 📈 5. Model Evaluation
+# 5. Model Evaluation
 
 The **base model** and the **fine-tuned model** were compared using several test scenarios.
 
@@ -184,7 +184,7 @@ Fine-tuning improved **tone and domain alignment**, but hallucinations still occ
 
 ---
 
-# ⚖️ RAG vs Fine-Tuning
+# RAG vs Fine-Tuning
 
 | Approach | Advantages | Limitations |
 |--------|-------------|-------------|
@@ -200,7 +200,7 @@ The best solution combines:
 
 ---
 
-# 🛠 Technologies Used
+# Technologies Used
 
 - Python
 - PyTorch
@@ -213,7 +213,7 @@ The best solution combines:
 
 ---
 
-# 🚀 Key AI Concepts Demonstrated
+# Key AI Concepts Demonstrated
 
 This project demonstrates several important AI concepts:
 
@@ -226,7 +226,7 @@ This project demonstrates several important AI concepts:
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
 Potential improvements include:
 
@@ -242,6 +242,5 @@ Potential improvements include:
 **Ibrahima Sory Traore**
 
 ML Engineer | AI Enthusiast | BI Developer  
-📍 Canada
 
 ---
