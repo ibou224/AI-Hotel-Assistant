@@ -43,46 +43,26 @@ To achieve this, the project integrates:
 
 # 🧱 Project Architecture
 
-AI-Hotel-Assistant
+AI-Hotel-Assistant/
 │
-├── 01_pre-traitement.ipynb
-├── 02_analyse_thematique.ipynb
-├── 03_analyse_sentiment.ipynb
-├── 04_rag.ipynb
-├── 05_assistant_finetuning.ipynb
+├── notebooks/
+│   ├── 01_preprocessing.ipynb
+│   ├── 02_thematic_analysis.ipynb
+│   ├── 03_sentiment_analysis.ipynb
+│   ├── 04_rag_pipeline.ipynb
+│   └── 05_llm_finetuning.ipynb
 │
-├── data
-│ ├── reviews_dataset.csv
-│ ├── faq_hotel.pdf
+├── data/
+│   ├── reviews_dataset.csv
+│   └── faq_hotel.pdf
 │
-└── README.md
+├── models/
+│
+├── README.md
+└── requirements.txt
 
 ---
 
-## System Architecture
-
-```mermaid
-flowchart TD
-  A[Customer Reviews Dataset] --> B[Text Cleaning & Preprocessing]
-  B --> C[Thematic Analysis]
-  C --> D[Theme Extraction]
-  D --> E[Insights on Customer Experience]
-
-  F[Hotel FAQ & Documents] --> G[Document Processing]
-  G --> H[Chunking]
-  H --> I[Embedding Generation]
-  I --> J[Vector Database (Chroma)]
-
-  K[User Question] --> L[Question Embedding]
-  L --> M[Vector Search]
-  J --> M
-  M --> N[Relevant Document Chunks]
-  N --> O[LLM Generation]
-  Q[Fine-Tuned LLM] --> O
-  O --> P[AI Assistant Response]
-```
-
----
 
 # 📊 1. Thematic Analysis of Customer Reviews
 
