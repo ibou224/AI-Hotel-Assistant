@@ -46,20 +46,12 @@ To achieve this, the project integrates:
 AI-Hotel-Assistant/
 │
 ├── notebooks/
-│   ├── 01_preprocessing.ipynb
-│   ├── 02_thematic_analysis.ipynb
-│   ├── 03_sentiment_analysis.ipynb
-│   ├── 04_rag_pipeline.ipynb
-│   └── 05_llm_finetuning.ipynb
-│
 ├── data/
-│   ├── reviews_dataset.csv
-│   └── faq_hotel.pdf
-│
 ├── models/
-│
+├── src/
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── .gitignore
 
 ---
 
