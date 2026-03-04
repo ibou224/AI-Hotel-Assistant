@@ -59,9 +59,6 @@ AI-Hotel-Assistant
 
 # System Architecture
 
-```mermaid
-flowchart TD
-
 A[Customer Reviews Dataset] --> B[Text Cleaning & Preprocessing]
 B --> C[Thematic Analysis]
 
