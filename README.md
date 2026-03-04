@@ -57,35 +57,30 @@ AI-Hotel-Assistant
 │
 └── README.md
 
-# System Architecture
+---
 
-A[Customer Reviews Dataset] --> B[Text Cleaning & Preprocessing]
-B --> C[Thematic Analysis]
+## System Architecture
 
-C --> D[Theme Extraction]
-D --> E[Insights on Customer Experience]
+```mermaid
+flowchart TD
+  A[Customer Reviews Dataset] --> B[Text Cleaning & Preprocessing]
+  B --> C[Thematic Analysis]
+  C --> D[Theme Extraction]
+  D --> E[Insights on Customer Experience]
 
-F[Hotel FAQ & Documents] --> G[Document Processing]
-G --> H[Chunking]
+  F[Hotel FAQ & Documents] --> G[Document Processing]
+  G --> H[Chunking]
+  H --> I[Embedding Generation]
+  I --> J[Vector Database (Chroma)]
 
-H --> I[Embedding Generation]
-I --> J[Vector Database - Chroma]
-
-K[User Question] --> L[Embedding of Question]
-
-L --> M[Vector Search]
-J --> M
-
-M --> N[Relevant Document Chunks]
-
-N --> O[LLM Generation]
-
-O --> P[AI Assistant Response]
-
-Q[Fine-Tuned LLM] --> O
-
-
-Each notebook focuses on a specific step of the AI pipeline.
+  K[User Question] --> L[Question Embedding]
+  L --> M[Vector Search]
+  J --> M
+  M --> N[Relevant Document Chunks]
+  N --> O[LLM Generation]
+  Q[Fine-Tuned LLM] --> O
+  O --> P[AI Assistant Response]
+```
 
 ---
 
